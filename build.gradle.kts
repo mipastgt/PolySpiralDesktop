@@ -19,6 +19,10 @@ dependencies {
     implementation(compose.desktop.currentOs)
 }
 
+kotlin {
+    jvmToolchain(17)
+}
+
 compose.desktop {
     application {
         mainClass = "MainKt"

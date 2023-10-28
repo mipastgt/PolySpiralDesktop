@@ -14,7 +14,7 @@ fun App() {
 }
 
 fun main() = application {
-    Window(onCloseRequest = ::exitApplication) {
+    Window(title = "PolySpiralDesktop 1.0", onCloseRequest = ::exitApplication) {
         App()
     }
 }

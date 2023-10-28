@@ -10,7 +10,7 @@ import kotlinx.coroutines.launch
 
 data class PolySpiralManagerState (
     val isRendering: Boolean = false,
-    val delayMillis: Long = 40,
+    val delayMillis: Long = 10,
     val length: Double = 5.0,
     val lengthIncrement: Double = 3.0,
     val strokeWidth: Double = 2.0,
